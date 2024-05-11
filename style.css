@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*:not(i){
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    background-color: #C40C0C;
+}
+.container{
+    background-color: #FF6500;
+    width:90vimn;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgb(35, 9, 57);
+}
+.search-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.search-box input{
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #FF8A08;
+    font-size: 16px;
+}
+.search-box button{
+    padding: 15px 0;
+    width: 25%;
+    background-color: #FFC100;
+    border: none;
+    outline: none;
+    color: #C40C0C;
+    border-radius: 5px;
+}
+
+.result{
+    position: relative;
+}
+.result h3{
+    font-size: 30px;
+    color: #FFC100;
+}
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.result button{
+    background-color: transparent;
+    color: beige;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.result details{
+    display: flex;
+    gap: 10px;
+    color: azure;
+    margin:5px 0 20px 0 ;
+    font-size: 14px;
+}
+.word-meaning{
+    color: #C40C0C;
+}
+.word-example{
+    color: #C40C0C;
+    font-style: italic;
+    border-left: 5px solid #C40C0C;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.error{
+    margin-top: 80px;
+    text-align: center;
+}
